@@ -14,4 +14,4 @@ docker exec -it npl /bin/bash -c "service nginx start && service php8.1-fpm star
 # docker rm -f npl
 ```
 
-Navigate to http://127.0.0.1:8081
+2. Navigate to http://127.0.0.1:8081
