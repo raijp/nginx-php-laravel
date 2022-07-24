@@ -4,7 +4,7 @@
 <br>php: 8.1
 <br>laravel: latest
 
-<br>1. Run :
+1. Run :
 ```
 git clone https://github.com/raijp/nginx-php-laravel.git && cd nginx-php-laravel
 docker build -t npl .
