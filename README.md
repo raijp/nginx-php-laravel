@@ -4,7 +4,7 @@
 <br>php: 8.1
 <br>laravel: latest
 
-<br>Run :
+<br>1. Run :
 ```
 git clone https://github.com/raijp/nginx-php-laravel.git && cd nginx-php-laravel
 docker build -t npl .
@@ -13,3 +13,5 @@ docker exec -it npl /bin/bash -c "service nginx start && service php8.1-fpm star
 # If you want to delete the container, run below.
 # docker rm -f npl
 ```
+
+Navigate to http://127.0.0.1:8081
